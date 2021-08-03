@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Office Class</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+class Office{
+	constructor (name,age,contact,cnic,room)
+{
+	this.name =name;
+	this.age =age;
+	this.contact=contact;
+	this.cnic=cnic;
+	this.room=room;
+ }
+};
+const a =new Office('Urba Ali Awan<br>',"20<br>","+92******<br>","17301-567-3564<br>","101");
+document.getElementById('demo').innerHTML=a.name+a.age+a.contact+a.cnic+a.room;
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factorial Use Nested Functions</title>
+</head>
+<body>
+<p id="p1"></p>
+<script>
+function factorial(number){
+	let fact=1;
+	for(i=1; i <= number; i++) {
+		fact *=i;
+
+	}
+	document.getElementById('p1').innerHTML=fact;
+
+}
+factorial(6);
+</script>
+</body>
+</html>

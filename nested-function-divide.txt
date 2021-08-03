@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested Function Divide</title>
+</head>
+<p id="d"></p>
+<body>
+<script>
+document.getElementById('d').innerHTML= div();
+function div()	
+{
+	let div=10;
+	function divided()
+{
+	div=div/5 ;
+}
+divided();
+return div;
+}
+	
+</script>
+</body>
+</html>

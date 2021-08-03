@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-30-2</title>
+</head>
+<body>
+<script>
+	function validationform()
+	{
+		let x=document.forms['form1']['fname'].value;
+		if(x<=10)
+	{
+		alert("value must be below 10 ");
+		return false;
+	}
+    }
+</script>
+<form name="form1" action="action.php" onsubmit="return validationform()" method="post" >
+Name:<input type="text" name="fname">
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

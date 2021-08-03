@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested Function Subtraction</title>
+</head>
+<body>
+<p id="d"></p>
+<script>
+document.getElementById('d').innerHTML= sub();
+function sub()	
+{
+	let Subtract=0;
+	function minus()
+{
+	Subtract=Subtract-1;
+}
+minus();
+return Subtract;
+}
+
+</script>
+</body>
+</html>

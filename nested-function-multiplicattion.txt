@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested Function  Multiplication</title>
+</head>
+<body>
+<p id="d"></p>
+<script>
+document.getElementById('d').innerHTML= mul();
+function mul()	
+{
+	let mul=0;
+	function multiply()
+{
+	multiply=multiply*1 ;
+}
+multiply();
+return mul;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<head>
+<title>Class</title>
+</head>
+<body>
+Class Student{
+ Public:
+int age;
+string name;
+};
+Student c;
+s.age=3;
+s.name='urba';
+cout<< s.name +s.age<<;
+</body>
+</html>

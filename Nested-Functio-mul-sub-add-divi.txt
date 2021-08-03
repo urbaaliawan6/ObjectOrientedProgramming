@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested Function</title>
+</head>
+<body>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+<script>
+document.getElementById('a').innerHTML= add();
+function add()	
+{
+	let sum=0;
+	function plus()
+{
+	sum=sum+1;
+}
+plus();
+return sum;
+}
+document.getElementById('b').innerHTML= sub();
+function sub()	
+{
+	let Subtract=0;
+	function minus()
+{
+	Subtract=Subtract-1;
+}
+minus();
+return Subtract;
+}
+document.getElementById('c').innerHTML= mul();
+function mul()	
+{
+	let mul=4;
+	function multiply()
+{
+	multiply=multiply*5;
+}
+multiply();
+return mul;
+}
+document.getElementById('d').innerHTML= div();
+function div()	
+{
+	let div=10;
+	function divided()
+{
+	div=div/5 ;
+}
+divided();
+return div;
+}
+
+</script>
+</body>
+</html>

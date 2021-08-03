@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>function load image</title>
+</head>
+<body>
+<p id="d"></p>
+<img src="img1.jpg" onerror="function2()">
+<script>
+function function2()
+{
+alert("this image could not be loaded");
+}
+document.getElementById('d').innerHTML= add();
+function add()	
+{
+	let sum=0;
+	function plus()
+{
+	sum=sum+1;
+}
+plus();
+return sum;
+}
+
+</script>
+</body>
+</html>
